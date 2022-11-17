@@ -16,6 +16,9 @@ build: [
   ["mv" "src/lib_mockup/%{name}%.install" "./"]
   ["dune" "runtest" "-p" name "-j" jobs] {with-test}
 ]
+conflicts: [
+  "ledgerwallet-tezos" { >= "0.3.0" }
+]
 synopsis: "Tezos: library of auto-documented RPCs (commands)"
 
 url {

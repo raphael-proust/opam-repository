@@ -33,6 +33,7 @@ conflicts: [
   "tezos-client-011-PtHangz2" { != version }
   "tezos-client-012-Psithaca" { != version }
   "tezos-client-alpha" { != version }
+  "ledgerwallet-tezos" { >= "0.3.0" }
 ]
 build: [
   ["rm" "-r" "vendors"]

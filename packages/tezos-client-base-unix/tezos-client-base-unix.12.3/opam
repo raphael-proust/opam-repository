@@ -18,6 +18,9 @@ build: [
   ["mv" "src/lib_client_base_unix/%{name}%.install" "./"]
   ["dune" "runtest" "-p" name "-j" jobs] {with-test}
 ]
+conflicts: [
+  "ledgerwallet-tezos" { >= "0.3.0" }
+]
 synopsis: "Tezos: common helpers for `tezos-client` (unix-specific fragment)"
 
 url {
