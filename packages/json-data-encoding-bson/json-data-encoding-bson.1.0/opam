@@ -1,0 +1,27 @@
+opam-version: "2.0"
+synopsis: "Type-safe encoding to and decoding from JSON (bson support)"
+maintainer: "contact@nomadic-labs.com"
+authors: [ "Nomadic Labs" "Ocamlpro" ]
+homepage: "https://gitlab.com/nomadic-labs/json-data-encoding"
+bug-reports: "https://gitlab.com/nomadic-labs/json-data-encoding/issues"
+license: "MIT"
+dev-repo: "git+https://gitlab.com/nomadic-labs/json-data-encoding"
+
+build: [
+  ["dune" "build" "-j" jobs "-p" name]
+]
+
+depends: [
+  "ocaml" {>= "4.10"}
+  "dune" {>= "2.0"}
+  "json-data-encoding" {= version }
+  "ocplib-endian" {>= "1.0"}
+]
+url {
+  src:
+    "https://gitlab.com/nomadic-labs/data-encoding/-/archive/v1.0.0/data-encoding-v1.0.0.tar.gz"
+  checksum: [
+    "md5=2b62043ecc529f360a6822447f813158"
+    "sha512=a1a21dd7c75ca9941ff6b34f6c9f54bda99f5180617e41951ab5182824a37801281318db73450185552d6a4019dbe0c3ec10286b5bdace37e08cad1096458694"
+  ]
+}
