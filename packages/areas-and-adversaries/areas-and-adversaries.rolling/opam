@@ -1,0 +1,24 @@
+opam-version: "2.0"
+synopsis: "TTRPG title generator"
+description: "Generate names for table-top role-playing games."
+license: "MIT"
+homepage: "https://gitlab.com/raphael-proust/areas-and-adversaries"
+doc: "https://gitlab.com/raphael-proust/areas-and-adversaries"
+bug-reports: "https://gitlab.com/raphael-proust/areas-and-adversaries/-/issues"
+authors: [ "Raphaël Proust <code@bnwr.net>" ]
+maintainer: [ "Raphaël Proust <code@bnwr.net>" ]
+dev-repo: "git+https://gitlab.com/raphael-proust/areas-and-adversaries.git"
+depends: [
+  "ocaml" {>= "4.14.0"}
+  "cmdliner" {>= "1.2.0"}
+  "astring" {>= "0.8"}
+]
+build: [ [make] ]
+url {
+  src:
+    "https://gitlab.com/raphael-proust/areas-and-adversaries/-/archive/1.0/areas-and-adversaries-1.0.tar.gz"
+  checksum: [
+    "md5=dc69f41d8d3ca4fbd4c4a22763da3a72"
+    "sha512=4ec42a410157910d5718b93ddf9df2ac881c4a7da5c65005095ea81acb9e646ddacb46519e4e4386b3bd920c3425cb52c2aacc0f64b6f524dbf6a49797a8bbf7"
+  ]
+}
