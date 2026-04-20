@@ -56,9 +56,9 @@ build: [
 ]
 x-maintenance-intent:[ "(latest)" ]
 url {
-  src: "https://github.com/ocsigen/lwt/archive/refs/tags/6.1.1.tar.gz"
+  src: "https://github.com/ocsigen/lwt/archive/refs/tags/6.1.2.tar.gz"
   checksum: [
-    "md5=9bccdb35c84cb8097233b3a875f08826"
-    "sha512=3c92e3359ee742b9647dc8392b71c2d725b23549327aaab772d48d016d7abb8f0d710d0e9bdc0fd2406e0cbc4ea182cd134446fe4356538795d173cc6a9e0a27"
+    "md5=31f5d415791bb4b673d63037e942031d"
+    "sha512=2dc8394f96d87e54022c591ab5cf040fa405148de499513a3735276ed55bcc7a44984443e78dd7fd38865ea2e5206025b4d3ddbfdf8ca278914db96914c36364"
   ]
 }
