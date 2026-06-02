@@ -1,0 +1,13 @@
+opam-version: "2.0"
+synopsis: "Set environment variable to instruct discover scripts of opam packages to support static compilation"
+authors: [
+  "Raphaël Proust"
+]
+homepage: "github.com/ocaml/opam-repository/"
+bug-reports: "github.com/ocaml/opam-repository/issues"
+license: "CC0-1.0+"
+conflicts: ["opam-repository-packages-config-static-linking"]
+maintainer: "Raphaël Proust"
+setenv: [
+  [ OPAM_REPOSITORY_PACKAGES_OPTION_STATIC_LINKING = "FALSE" ]
+]
